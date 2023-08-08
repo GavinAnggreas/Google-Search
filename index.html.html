@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Google</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section.content {
+            margin-top: 5%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50pt;
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 40%;
+            min-width: 400px;
+            height: 50px;
+            line-height: 50px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        form span.search-icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        form input.search-entry {
+            width: 90%;
+            height: 30px;
+            border: none;
+            border-radius: 30px;
+            background-color: white;
+            padding: 0 10px ;
+        }
+
+        form input.search-entry:focus {
+            outline: none;
+        }
+
+        form > input.search-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            background-color: cyan;
+        }
+
+        div.entry-group {
+            display: inline-block;
+            width: calc(40px + 80%);
+            height: 38px;
+            background-color: white;
+            border: 1px gray solid;
+            border-radius: 19px;
+            line-height: 38px;
+        }
+        header {
+            background-color: blueviolet;
+            font-size: 30px;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>Gavin Anggreas 10.2</p>
+    </header>
+    <section class="content">
+        <img src="google.jpg" alt="google">
+
+        <h1>
+            <span style="color: lightblue;">G</span><span style="color: red;">o</span><span style="color:yellow;">o</span><span style="color: lightblue;">g</span><span style="color:lime;">l</span><span style="color: red;">e</span>
+        </h1>
+        <form action="https://www.google.com/search">
+            <div class="entry-group">
+                <span class="search-icon">🔎</span>
+                <input class="search-entry" type="text" name="q" id="" placeholder="Find your idea">
+            </div>
+            <input class="search-btn" type="submit" value="😎">
+
+        </form>
+    </section>
+    <footer></footer>
+</body>
+</html>
